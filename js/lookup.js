@@ -3,5 +3,5 @@ exports.lookUp = function(username) {
 };
 
 exports.lookUp.prototype.usernameURL = function () {
-  return 'https://api.github.com/users/' + this.username;
+  return this.username;
 };
