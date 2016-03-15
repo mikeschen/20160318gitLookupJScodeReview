@@ -2,7 +2,7 @@
   "name": "gitlookup",
   "version": "1.0.0",
   "description": "##### Epicodus exercise using Javacript, 03.18.2016",
-  "main": "gulpfile.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -18,5 +18,11 @@
   "homepage": "https://github.com/mikeschen/20160318gitLookupJScodeReview#readme",
   "dependencies": {
     "prompt": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.0",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
