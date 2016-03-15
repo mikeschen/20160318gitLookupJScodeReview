@@ -1,0 +1,22 @@
+{
+  "name": "gitlookup",
+  "version": "1.0.0",
+  "description": "##### Epicodus exercise using Javacript, 03.18.2016",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikeschen/20160318gitLookupJScodeReview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikeschen/20160318gitLookupJScodeReview/issues"
+  },
+  "homepage": "https://github.com/mikeschen/20160318gitLookupJScodeReview#readme",
+  "dependencies": {
+    "prompt": "^1.0.0"
+  }
+}

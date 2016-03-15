@@ -1,12 +1,10 @@
-var pingPong = require('./../js/ping-pong.js').pingPong;
+var apiKey = "6dbfb1db59dc2b72dd48a4829420f794";
 
 $(document).ready(function(){
-  $('#ping-pong').submit(function(event){
-    event.preventDefault();
-    var goal = $('#goal').val();
-    var output = pingPong(goal);
-    output.forEach(function(element){
-      $('#solution').append("<li>" + element + "</li>");
-    });
+  $('#weatherLocation').click(function(){
+  	var city = $('#location').val();
+  	$.get('http://api.openweathermap.org/data/2.5/weather?q=' + city + '&appid=' + apiKey, function(response) {
+  				$('.showWeather').text("The humidity in " + city + " is " + response.main.humidity + "%");
+  	});
   });
 });
